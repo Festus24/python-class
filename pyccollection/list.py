@@ -1,4 +1,7 @@
 # Lists and tuple
+"""
+List
+"""
 #     Creating and accessing elements
 #     List methods (append, extend, insert, remove)
 #     List comprehensions
@@ -38,8 +41,12 @@ student_name = ["Oba", "Festus", "Emmanuel", "Kenny", "Ibrahim", "Samuel"]
 # list_student = [name for name in student_name if len(name) <=6]
 # print(list_student)
 
+# list_num = [5, 4, 10, 25, 15, 27, 60, 100]
+# even_num = [n for n in list_num if n%2==0]
+# print(even_num)
+
 # Nested dara structures
-student_record = [["Oba", "Cyber", 20265], ["Festus", "Native app", 20266], ["Kenny", "Network appl", 20266]]
+# student_record = [["Oba", "Cyber", 20265], ["Festus", "Native app", 20266], ["Kenny", "Network appl", 20266]]
 # print(student_record[1][0])
 
 # for container in student_record:
@@ -48,5 +55,5 @@ student_record = [["Oba", "Cyber", 20265], ["Festus", "Native app", 20266], ["Ke
 # for name, deoartment, matric_no in student_record:
 #     print(name, matric_no)
 
-student_record[2][1] = "Fishery"
-print(student_record)
+# student_record[2][1] = "Fishery"
+# print(student_record)
