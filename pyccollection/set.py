@@ -25,12 +25,21 @@ set
 # print(student_name.add("Mango"))
 # print(student_name)
 
-# set1 = {1, 2, 3, 4, 5, 6, 7}
-# set2 = {1, 20, 30, 45, 55, 60, 75}
+set1 = {1, 2, 3, 4, 5, 6, 7}
+set2 = {1, 20, 30, 45, 55, 60, 75}
 # set3 = {1, 2, 4, 56, 7, 3, 5, 100,}
 # print(set1.issuperset(set2))
 # print(set1.issubset(set3))
 # print(set1.__len__())
+# print(set1 ^ set2)
+
+print(set1[2])
+print(set1.update(set2))
+
+print(set1.union(set2))
+print(set1)
+
+print(set1 | set2)
 
 
 
