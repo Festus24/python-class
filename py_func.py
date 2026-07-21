@@ -144,7 +144,47 @@ Arbitary key argument(**Kwargs)
 
 # employee_info(name='Oba', department="HR", age=55, salary="1.5M")
 
-def student_rd(*score, **student_information):
-    print("args: ", score)
-    print("kwargs: ", student_information)
-student_rd(50, 60, 70, 56, 76, name="John", matric_no=202645, department= "Physics")
+# def student_rd(*score, **student_information):
+#     print("args: ", score)
+#     print("kwargs: ", student_information)
+# student_rd(50, 60, 70, 56, 76, name="John", matric_no=202645, department= "Physics")
+
+# list_num = [2, 3, 6, 9, 11, 1, 4, 7]
+# expensive = list(filter(lambda i: i%2==0, list_num))
+# print(expensive)
+
+
+# val1 = 10
+# x = lambda i: i%2==0
+# print(x(val1))
+
+# list_num = [2, 3, 6, 9, 11]
+# even = lambda num: num%2==0
+# print(even(list_num))
+
+# def x(i):
+#     return i%2==0
+# print(x(val1))
+
+# l="Mango"
+# s = lambda r: len(r)
+# print(s(l))
+
+# employees = [
+#     {"name": "John", "salary": 60000},
+#     {"name": "Mary", "salary": 45000},
+#     {"name": "Ayomide", "salary": 75000},
+#     {"name": "Oba", "salary": 750000},
+#     {"name": "Fatimah", "salary": 1500000},
+# ]
+
+# employees.sort(key=lambda emp: emp["salary"])
+# print(employees)
+
+# prices = [12000, 80000, 45000, 150000, 30000, 60000, 10000, 25000]
+# expensive = list(filter(lambda price: price > 50000, prices))
+# print(expensive)
+
+# names = ["Samuel" "Fatimah", "Festus", "Emmanuel", "Ibrahim", "Kenny", "David", "Samuel"]
+# student_name = list(filter(lambda name: len(name)<=6, names))
+# print(student_name)
